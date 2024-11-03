@@ -1,27 +1,22 @@
 
+import GradientBg from "@/components/GradientBg";
+import HeroSection from "@/components/HeroSection";
+
 export default function Home() {
   return (
-    <div className="relative w-full h-screen bg-[#272d2a]">
-      <div className="absolute top-14 left-[-22rem]">
-        <img 
-          src="https://assets-global.website-files.com/63793925c7db23ce040b0824/64ef089c7513babb5e53bc6c_Meeesh2.jpg"   
-          className="h-[60rem] rotate-[213deg]"
-        />
-      </div>
-      <div className="absolute top-17 right-[-18rem]">
-        <img 
-          src="https://assets-global.website-files.com/63793925c7db23ce040b0824/64ef089c7513babb5e53bc6c_Meeesh2.jpg"   
-          className=" w-[50rem] h-[65rem] rotate-[0deg]"
-        />
+    <div className="relative w-[100%] h-screen bg-[#272d2a] overflow-x-hidden">
+
+      <GradientBg />
+
+      <div className="absolute h-full w-full">
+        <div className=" w-[97.5%] h-[95%] bg-black opacity-15 rounded-[30px] m-4" />
       </div>
 
-      <div className="h-full w-full bg-transparent absolute z-999">
-        <div className="h-full w-full flex items-center justify-center p-4">
-          <div className="w-full h-[95%] bg-black opacity-15 rounded-[30px]">
-            
-          </div>
-        </div>
+      <div className="w-full h-full absolute z-10 flex flex-col items-center justify-center">
+        <p className="text-[#637163] text-lg">Competitive Edge through Creativity & Technology</p>
+        <HeroSection />
       </div>
+
     </div>
   );
 }
