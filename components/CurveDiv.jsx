@@ -2,9 +2,9 @@ import React from 'react'
 
 function CurveDiv({style , src}) {
   return (
-    <div className={!style && `flex items-center justify-center w-[8rem] h-[5rem] rounded-full bg-[#252D29]`}>
+    <div className={style ? style : `flex items-center justify-center w-[8rem] h-[5rem] rounded-full bg-[#252D29]`}>
             <img 
-              className={` ${style}`}
+              className={style}
               src={src}
               
             />
