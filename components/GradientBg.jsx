@@ -14,7 +14,7 @@ export default function GradientBg() {
             className=" w-[50rem] h-[65rem] rotate-[0deg]"
           />
         </div>
-        <div className="absolute top-[68rem] left-[-20rem]">
+        <div className="absolute top-[78rem] left-[-20rem]">
           <img 
             src="https://assets-global.website-files.com/63793925c7db23ce040b0824/64ef089c7513babb5e53bc6c_Meeesh2.jpg"   
             className="h-[60rem] rotate-[-135deg]"
