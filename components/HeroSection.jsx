@@ -1,5 +1,5 @@
 import React from 'react'
-import CurveDiv from './CurveDiv'
+import CurveDiv from './ui/CurveDiv'
 
 function HeroSection() {
   return (
