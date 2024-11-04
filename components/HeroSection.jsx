@@ -1,6 +1,5 @@
 import React from 'react'
 import CurveDiv from './CurveDiv'
-import Mouse from '@/utils/Mouse'
 
 function HeroSection() {
   return (
