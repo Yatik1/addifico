@@ -1,3 +1,4 @@
+import TextAnimate from "./TextAnimate";
 
 function About() {
   return (
@@ -16,13 +17,9 @@ function About() {
           <p className="text-[#A6B5A3] text-lg">Why we exist?</p>
         </div>
         <div className="w-[55%] mt-8 mr-[2rem]">
-          <p className="text-[3em] leading-[4rem] tracking-tighter font-medium text-[#39413D]">
-            At Addifico Consulting, we use human creativity and the latest
-            technologies to help business leaders, investors, and entrepreneurs
-            enhance their market positioning, discover the next winning trend,
-            and optimize their chances for success.
-          </p>
+          <TextAnimate />
         </div>
+        
       </div>
     </div>
   );
