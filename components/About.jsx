@@ -1,4 +1,4 @@
-import TextAnimate from "./TextAnimate";
+import TextAnimate from "./ui/TextAnimate";
 
 function About() {
   return (
