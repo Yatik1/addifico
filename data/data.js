@@ -24,5 +24,5 @@ export const cardData = [
     {
         logo:<Bag />,
         title:"Business Development Strategy"
-    }
+    },
 ]
