@@ -1,4 +1,4 @@
-import GradientBg from "@/components/GradientBg";
+import GradientBg from "@/components/ui/GradientBg";
 import HomePage from "@/components/HomePage";
 
 
