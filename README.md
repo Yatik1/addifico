@@ -1,7 +1,5 @@
-# Project Name
-Addifico
-## Description
-Welcome to Addifico! This project provides a comprehensive solution for managing tasks and handling data efficiently. 
+# Addifico
+## Welcome to Addifico! This project provides a comprehensive solution for managing tasks and handling data efficiently. 
 
 This README will guide you through setting up this project locally.
 
