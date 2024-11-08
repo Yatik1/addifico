@@ -6,7 +6,7 @@ function TextAnimate() {
     const words = content.split("")
     
   return (
-    <p className="text-[3.2em] leading-[4rem] tracking-tighter text-[#39413D]">
+    <p className="text-[1.7rem] leading-[2.5rem] text-left text-balance font-medium md:font-normal md:text-[3.2em] md:leading-[4rem] tracking-tighter text-[#39413D]">
         {words.map((word,index) => (
             <motion.span 
                 key={index}
